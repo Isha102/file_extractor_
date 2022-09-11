@@ -1,0 +1,354 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(242, 242, 242);
+}
+
+
+.container{
+    height:60px;
+    width: 100%;
+    background-color: black;
+    max-width: 1280px !important;
+}
+
+.container .logo-box{
+    height: 100%;
+    width: 15%;
+    margin-left: 30px;
+    background-color: white;
+    float: left;
+}
+
+.logo-box img{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+.container .nav-box{
+    height: 100%;
+    width: 60%;
+    margin-left: 20px;
+    float: left;
+}
+
+.nav-box ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-box ul li{
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    text-transform: capitalize;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.nav-box ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.hero-btn{
+    height: 30px;
+    width: 60px;
+    border: 0.5px solid rgb(240, 232, 232);
+    border-radius: 5%;
+    color: white;
+    background-color: black;
+    margin-left:14%;
+    margin-top:20px;
+}
+
+.content-area{
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.content-area img{
+    height: 50px;
+    width: 50px;
+    opacity: 1;
+    vertical-align:bottom;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+h1:hover{
+    color: blue;
+}
+
+
+p{
+    text-align: center;
+    padding: 10px;
+    color: grey;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.file-box{
+    height: 250px;
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.choose-btn{
+    height: 70px;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 5px 10px;
+    background-color: rgb(36, 125, 242);
+    border: none;
+    border-radius: 10px;
+}
+.p1{
+    color: white;
+    font-size: 20px;    
+}
+.p1 span{
+    color: #ccc;
+    font-size: 13px;
+    text-transform: none;
+}
+
+.file-box ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.file-box ul li{
+    display: inline-block;
+    color: blue;
+    font-size: 15px;
+    padding: 0px 10px;
+    text-transform: capitalize;
+}
+
+.file-box ul li:hover{
+    text-decoration: underline;
+}
+
+.p2{
+    color: grey;
+    text-decoration: none;
+    font-style: italic;
+    padding: 15px;
+    
+}
+
+#para{
+    color: grey;
+    text-align: center;
+    padding: 20px;
+}
+
+span{
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+h4{
+    text-align: center;
+    color: rgb(62, 51, 51);
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.para{
+    color: grey;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: lighter;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    padding: 0;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+span{
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.login-form{
+    height: 600px;
+    width: 50%;
+    background-color: whitesmoke;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.form-head{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bolder;
+    word-spacing: 5px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.signup-btn{
+    height: 40px;
+    width: 70%;
+    border: 1px solid #ccc;
+    display: block;
+    margin: auto;
+    margin: 10px;
+    margin-left: 80px;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.signup-btn:hover{
+    background-color: #ccc;
+}
+
+input{
+    height: 40px;
+    width: 70%;
+    border: 1px solid #ccc;
+    display: block;
+    margin: auto;
+    margin: 10px;
+    margin-left: 80px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 5px;
+    outline: none;
+    text-transform: capitalize;
+    text-align:center;
+}
+
+.account-btn{
+    height: 40px;
+    width: 70%;
+    border: 1px solid #ccc;
+    display: block;
+    margin: auto;
+    margin: 25px;
+    margin-left: 80px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: rgb(79, 79, 165);
+}
+
+.terms{
+    color: #ccc;
+    font-size: 15px;   
+}
+
+.terms a{
+    color: #ccc;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.terms a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+.confirm{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.confirm a{
+    color:blue;
+    text-decoration: none;
+}
+
+.confirm a:hover{
+    text-decoration: underline;
+}
+
+#parent{
+    margin-top: 1%;
+    background-color: #ccc;
+    min-height:270px ;
+    min-width: 400px;
+    width: 40%;
+    height: auto;
+    overflow:hidden;
+}
+
+#span{
+    font-size: 10px;
+    color: rgb(179, 198, 255);
+}
+
+#label{
+    height: 70px;
+    width: 150px;
+    margin: 0px 250px;
+}
+
+#div2{
+    margin-left: 30%;
+    padding-right: 40%;
+}
+
+::webkit::-webkit-scrollbar{
+    display: none;
+}

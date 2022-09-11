@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zip reader</title>
+</head>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.3/jstree.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+<link rel="stylesheet" href="app.css">
+<body>
+    <div class="container">
+        <div class="logo-box">
+            <img src="logo1.jpg" alt="photo">
+
+        </div>
+
+        <div class="nav-box">
+            <ul>
+                <li><a href="#">video tools</a></li>
+                <li><a href="#">audio tools</a></li>
+                <li><a href="#"><i class="fa fa-file"></i> PDF tools</a></li>
+                <li><a href="#"><i class="fa fa-refresh"></i>converters</a></li>
+                <li><a href="#">utilities</a></li>  
+            </ul>
+        </div>
+
+        <button onclick="myfunction()" class="hero-btn">Log in</button>
+    </div>
+
+    <div class="login-form" id="form">
+        <form action="#">
+            <h1 class="form-head">create an account</h1>
+            <p>one account for everything by 123apps</p>
+
+            <button class="signup-btn"><i class="fa fa-google"></i>Sign in with google</button>
+            <button class="signup-btn"><i class="fa fa-facebook"></i>Sign up with facebook</button>
+
+            <p>or</p>
+
+            <input type="email" placeholder="email-id">
+            <input type="password" placeholder="password">
+
+            <button class="account-btn">Create an account</button>
+            <p class="terms">By creating an account you agree to our <a href="#">Privacy & Terms</a></p>
+
+            <p class="confirm">Already have an account? <a href="#">Log in</a></p>
+
+            
+        </form>
+    </div>
+    <section class="content-area">
+        <h1><img src="image.jpg" alt="photo">archieve extractor</h1>
+        <p>Archieve Extractor is a small and easy online tool that can extract over 70 types of compressed <br> files such as 7z, zipx, rar, tar, exe, dmg and much more.</p>
+
+        <div id="parent" class="d-flex  justify-content-center mx-auto">
+            <div id="div1" class=" flex-column pt-5"> 
+                <label class="mt-4 btn btn-primary" for="file" id="label">Choose file<br /><span id="span">from your computer</span></label>
+                <input  type="file" id="file" name="file" style="display:none" />
+            </div>
+            
+            <div id="div2" class=" flex-column mt-3 ml-2">
+                <h6>Archive successfully extracted</h6>
+                 <button class=" p-2 btn btn-primary" onclick="downloadAll()"><i class="bi bi-download"></i> Save all files</button>
+                <div class="p-2 ml-0" id="tree"></div>
+                <button class=" p-2 btn btn-secondary " onclick="refresh()"><i class="bi bi-arrow-left"></i> Extract another archive</button>
+            </div>
+               
+         </div>
+
+        <h4>supported formats:
+            <p class="para">7z, zipx, rar, tar, exe, dmg, iso, zip, msi, nrg, gz, cab, bz2, wim, ace  <a href="#">and 54 more</a></p>
+            <span>Supports password-protected archives
+                <br>
+                Can unpack multi-part archives (zip.001, rar.part1, z01, etc)
+            </span>
+        </h4>
+
+
+    </section>
+
+   
+    
+   
+
+</body>
+<script src="pro.js"></script>
+<script src="jszip.min.js"></script>
+<script src="jszip-utils.min.js"></script>
+<script src="app1.js"></script>
+<script src="FileSaver.min.js"></script>
+</html>
